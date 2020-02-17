@@ -6,7 +6,64 @@
 
   body{
       background-color: black;
-      display: flex;
-      justify-content: center;
       text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: normal;
+  }
+
+  header{
+      width: 100%;
+      height: auto;
+      border: 2px solid red; 
+  }
+
+   h1{
+      font-size: 50px;
+      color: white;
+      margin: 33.5px 0px;
+      font-weight: normal;
+
+  }
+  p{
+  font-size: 21px;
+  color: gray;
+  margin: 21px 0px;
+  }
+
+  .banner{
+      border: 2px solid blue;
+      width: 100%;
+  }
+
+  a{
+      color: aquamarine;
+      font-size: 16px;
+  }
+
+
+  .landscape{
+    border: 2px solid pink;
+    width: 100%;
+  }
+
+  h2{
+      color: white;
+      font-weight: 300;
+      font-size: 42px;
+      margin: 34px 0px;
+  }
+
+  .footer{
+    border: 2px solid white;
+  }
+
+  .footer img{
+      margin: 21px 0px;
+  }
+
+  .copyright{
+      text-align: right;
+      color: gray;
+      border: 2px solid green;
+     padding-right: 10px;
   }
